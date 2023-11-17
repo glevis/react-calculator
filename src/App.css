@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.eq-border {
+    text-align: right;
+    padding-right: .3em;
+    font-size: 3em; 
+    height: 1.5em;
+}
+
+.calc-row {
+    display: flex;
+}
+
+.operator {
+    background-color: #642400;
+}
+
+.operator:hover{
+
+    background-color: #864622;
+}
+
+.modifier {
+    background-color: #454545;
+}
+
+.digit_zero {
+    width: 6.6em;
+}
+
+.calculator {
+    background-color: #000000;
+    border-radius: 25px;
+    height: 23em;
+    padding-top: 5em;
+    width: 14.4em;
+}
